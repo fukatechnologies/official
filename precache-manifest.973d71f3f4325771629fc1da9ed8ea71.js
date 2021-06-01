@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d5245e92e8f5ee6731c405f7cdfdff7",
+    "revision": "40a92fe953d3f6406771aa8bfe7caac0",
     "url": "/official/index.html"
   },
   {
-    "revision": "7e6e759b074078ba887d",
-    "url": "/official/static/css/main.83c239ad.chunk.css"
+    "revision": "4b9da878a279d20f9d0e",
+    "url": "/official/static/css/main.9e9e3fab.chunk.css"
   },
   {
-    "revision": "c7eeec577fca60cc1afc",
-    "url": "/official/static/js/2.c19825e0.chunk.js"
+    "revision": "fab98b502f75ac801d0c",
+    "url": "/official/static/js/2.438a8a00.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/official/static/js/2.c19825e0.chunk.js.LICENSE.txt"
+    "url": "/official/static/js/2.438a8a00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e6e759b074078ba887d",
-    "url": "/official/static/js/main.5507de33.chunk.js"
+    "revision": "4b9da878a279d20f9d0e",
+    "url": "/official/static/js/main.8b2d01fa.chunk.js"
   },
   {
-    "revision": "93f9e16feb4e55f09547",
-    "url": "/official/static/js/runtime-main.eaaa0aa2.js"
+    "revision": "de048e33a0cc458aed84",
+    "url": "/official/static/js/runtime-main.510f5418.js"
   },
   {
     "revision": "3ce357e71a836a86691b904396a8955c",
@@ -64,16 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/official/static/media/features-split-image-03.87e4d053.png"
   },
   {
-    "revision": "e36a884d371edfa9901b32e7683d2bef",
-    "url": "/official/static/media/fuka_text.e36a884d.png"
-  },
-  {
     "revision": "ea6949039d6554ebf2cf109f333f5811",
     "url": "/official/static/media/illustration-section-01.ea694903.svg"
   },
   {
     "revision": "63d0555d90c053eea1a1a7469d004661",
     "url": "/official/static/media/illustration-section-02.63d0555d.svg"
+  },
+  {
+    "revision": "2810a88b1d6365b363caeabe678f1629",
+    "url": "/official/static/media/logo.2810a88b.svg"
   },
   {
     "revision": "a622fc5dd8adcdd27ea42218385013b4",
