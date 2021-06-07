@@ -3,34 +3,32 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-import Image1 from './../../assets/images/features-split-image-01.png';
-import Image2 from './../../assets/images/features-split-image-02.png';
-import Image3 from './../../assets/images/features-split-image-03.png';
+import Image1 from './../../assets/images/fuka_uptimecontroller.jpg';
+import Image2 from './../../assets/images/fuka_monitor.jpg';
+import Image3 from './../../assets/images/fuka_optimizer.jpg';
 
 const sectionHeader = {
-  title: 'Workflow that just works',
-  paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+  title: 'Product highlights',
+  paragraph: 'Presented below are some of the many use cases delivered in the past by our team of industry experts.'
 };
 
-const featuresList = []
-
-const toUpdate = [
+const featuresList = [
   {
-    product:'Lightning fast workflow',
-    functionality:'Data-driven insights',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    product:'Smart Controller System',
+    functionality:'Uptime Controller',
+    description:'Maximizes the lifespan of chillers and reduces downtime due to maintanence by intelligently managing loads while ensuring a reliable 24/7 uptime.',
     image:Image1,
     alt:'Features split 01'
   },{
-    product:'Lightning fast workflow',
-    functionality:'Data-driven insights',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    product:'Cloud System',
+    functionality:'Automated Monitoring and Alert System',
+    description:'Enables a 24/7 remote accessable system to ensure system and production lines are operating smoothly. System can be upgraded to provide notification capabilities and alerts any system animolies almost instaneously, thus reducing downtime and production losses.',
     image:Image2,
     alt:'Features split 02'
   },{
-    product:'Lightning fast workflow',
-    functionality:'Data-driven insights',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    product:'Smart Controller System',
+    functionality:'Energy Optimizer System',
+    description:'A propriety algoritm to fully maximize the potential system and ensure devices are constantly operating at its optimum state.',
     image:Image3,
     alt:'Features split 03'
   }]

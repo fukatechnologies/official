@@ -66,15 +66,15 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                We deliver revolutionary industry leading solutions with the highest confidence, quality and pride. We emphasises on the power of modern engineering and digital world technologies. Founded by engineers thru passion, programmers by experience, with love for the environment at heart!
+                We deliver revolutionary industry leading solutions with the highest confidence, quality and pride. We leverages on the power of IT and digital technologies to accomplish what is not possible with industrial automation alone. Founded by engineers through passion, programmers by experience, with love for the environment at heart!
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://fukatechnologies.github.io/official/">
                     Get started
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/fukatechnologies/official/">
-                    View on Github
+                  <Button tag="a" color="dark" wideMobile href="mailto:fukatechnologies@gmail.com">
+                    Contact Us
                     </Button>
                 </ButtonGroup>
               </div>

@@ -10,40 +10,38 @@ import FeatureImage4 from './../../assets/images/feature-tile-icon-04.svg';
 import FeatureImage5 from './../../assets/images/feature-tile-icon-05.svg';
 
 const sectionHeader = {
-  title: 'Build up the whole picture',
-  paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+  title: 'It is all about the solution, not the product.',
+  paragraph: '- Technologies and hardwares -'
 };
 
-const features = []
-
-const toUpdate = [
+const features = [
   {
-    name: 'Robust Workflow',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.',
+    name: 'Cloud Technology',
+    description: 'Globally accessible, high availability and robust system.',
     image: FeatureImage1,
     delayedReveal: 0,
     alt:'Features tile icon 01'
   },{
-    name: 'Robust Workflow',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.',
-    image: FeatureImage2,
-    delayedReveal: 300,
-    alt:'Features tile icon 02'
-  },{
-    name: 'Robust Workflow',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.',
+    name: 'Internet Of Things',
+    description: 'Real-time monitor, control, and notification system.',
     image: FeatureImage3,
     delayedReveal: 600,
     alt:'Features tile icon 03'
   },{
-    name: 'Robust Workflow',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.',
+    name: 'Machine Learning',
+    description: 'Insights to behavior, operation, maintanence and anomalies.',
     image: FeatureImage4,
     delayedReveal: 0,
     alt:'Features tile icon 04'
   },{
-    name: 'Robust Workflow',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.',
+    name: 'Big Data',
+    description: 'Handles high volume, velocity and variety of data.',
+    image: FeatureImage2,
+    delayedReveal: 300,
+    alt:'Features tile icon 02'
+  },{
+    name: 'Industrial Automations',
+    description: 'Digital controller, PLCs, HMI and Networking.',
     image: FeatureImage5,
     delayedReveal: 300,
     alt:'Features tile icon 05'

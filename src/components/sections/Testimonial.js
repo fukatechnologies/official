@@ -5,7 +5,7 @@ import SectionHeader from './partials/SectionHeader';
 
 const sectionHeader = {
   title: 'What customer says',
-  paragraph: 'about us'
+  paragraph: 'What our customers like about us'
 };
 
 const testimonialList = []
