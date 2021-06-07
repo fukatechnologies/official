@@ -19,7 +19,14 @@ const AppRoute = ({
               <Component {...props} />
             </Layout>
           )} />
-
+        <Route exact path="/mail" component={() => { 
+          window.location.href = "mailto:fukatechnologies@gmail.com"; 
+          return null; 
+        }} />
+        <Route exact path="/web" component={() => { 
+          window.location.href = 'https://fukatechnologies.github.io/official/'; 
+          return null; 
+        }} />
         <Route exact path="/sign-in" component={() => { 
           window.location.href = 'https://fuca-technology.web.app/sign-in?is=fuka'; 
           return null; 

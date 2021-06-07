@@ -70,12 +70,9 @@ const Hero = ({
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://fukatechnologies.github.io/official/">
-                    Get started
-                    </Button>
-                  <Button tag="a" color="dark" wideMobile href="mailto:fukatechnologies@gmail.com">
+                  <Button tag="a" color="primary" wideMobile href="mailto:fukatechnologies@gmail.com">
                     Contact Us
-                    </Button>
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>

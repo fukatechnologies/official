@@ -4,8 +4,8 @@ import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 
 const sectionHeader = {
-  title: 'What customer says',
-  paragraph: 'What our customers like about us'
+  title: 'Business Address',
+  paragraph: 'No.6 Jalan 29/10A, Taman Perindustrian IKS, 68100 Batu Caves, Selangor, Malaysia.'
 };
 
 const testimonialList = []
