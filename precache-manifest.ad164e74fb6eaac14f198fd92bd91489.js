@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2b93724495c4b4e79255c7bbda11c9f",
+    "revision": "923d47d6f70df385a91d104024369aa3",
     "url": "/official/index.html"
   },
   {
-    "revision": "084135c2e800e819929f",
+    "revision": "ca027f92a168a3b2da8f",
     "url": "/official/static/css/main.764d06b7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/official/static/js/2.64b97dad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "084135c2e800e819929f",
-    "url": "/official/static/js/main.323af677.chunk.js"
+    "revision": "ca027f92a168a3b2da8f",
+    "url": "/official/static/js/main.acabfce8.chunk.js"
   },
   {
     "revision": "de048e33a0cc458aed84",
@@ -48,24 +48,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/official/static/media/feature-tile-icon-05.fa9ba00b.svg"
   },
   {
-    "revision": "d9cb99ceb6a66250792ed78f5765325b",
-    "url": "/official/static/media/features-split-image-01.d9cb99ce.png"
-  },
-  {
-    "revision": "3c569239f88160018f79029ba5dc227d",
-    "url": "/official/static/media/features-split-image-02.3c569239.png"
-  },
-  {
-    "revision": "87e4d053756c60c9f421195d8eafdbfe",
-    "url": "/official/static/media/features-split-image-03.87e4d053.png"
-  },
-  {
     "revision": "71fb9f1523d121e4adbffa766d6a82f5",
     "url": "/official/static/media/fuka_ems.71fb9f15.gif"
   },
   {
+    "revision": "18cf658438b631036a1cdb1f3876351c",
+    "url": "/official/static/media/fuka_monitor.18cf6584.jpg"
+  },
+  {
+    "revision": "c7686c42106aa14b9b97a9ad5227cb00",
+    "url": "/official/static/media/fuka_optimizer.c7686c42.jpg"
+  },
+  {
     "revision": "e36a884d371edfa9901b32e7683d2bef",
     "url": "/official/static/media/fuka_text.e36a884d.png"
+  },
+  {
+    "revision": "629ae03dd697018f5eaaebe49c707a17",
+    "url": "/official/static/media/fuka_uptimecontroller.629ae03d.jpg"
   },
   {
     "revision": "ea6949039d6554ebf2cf109f333f5811",

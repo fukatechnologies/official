@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/official/static/css/main.764d06b7.chunk.css",
-    "main.js": "/official/static/js/main.323af677.chunk.js",
-    "main.js.map": "/official/static/js/main.323af677.chunk.js.map",
+    "main.js": "/official/static/js/main.acabfce8.chunk.js",
+    "main.js.map": "/official/static/js/main.acabfce8.chunk.js.map",
     "runtime-main.js": "/official/static/js/runtime-main.510f5418.js",
     "runtime-main.js.map": "/official/static/js/runtime-main.510f5418.js.map",
     "static/js/2.64b97dad.chunk.js": "/official/static/js/2.64b97dad.chunk.js",
     "static/js/2.64b97dad.chunk.js.map": "/official/static/js/2.64b97dad.chunk.js.map",
     "index.html": "/official/index.html",
-    "precache-manifest.911ccfaa2e0d1b623ed9bfd8e6d9c3dc.js": "/official/precache-manifest.911ccfaa2e0d1b623ed9bfd8e6d9c3dc.js",
+    "precache-manifest.ad164e74fb6eaac14f198fd92bd91489.js": "/official/precache-manifest.ad164e74fb6eaac14f198fd92bd91489.js",
     "service-worker.js": "/official/service-worker.js",
     "static/css/main.764d06b7.chunk.css.map": "/official/static/css/main.764d06b7.chunk.css.map",
     "static/js/2.64b97dad.chunk.js.LICENSE.txt": "/official/static/js/2.64b97dad.chunk.js.LICENSE.txt",
@@ -18,16 +18,16 @@
     "static/media/feature-tile-icon-03.svg": "/official/static/media/feature-tile-icon-03.66f37ba5.svg",
     "static/media/feature-tile-icon-04.svg": "/official/static/media/feature-tile-icon-04.836acd10.svg",
     "static/media/feature-tile-icon-05.svg": "/official/static/media/feature-tile-icon-05.fa9ba00b.svg",
-    "static/media/features-split-image-01.png": "/official/static/media/features-split-image-01.d9cb99ce.png",
-    "static/media/features-split-image-02.png": "/official/static/media/features-split-image-02.3c569239.png",
-    "static/media/features-split-image-03.png": "/official/static/media/features-split-image-03.87e4d053.png",
     "static/media/fuka_ems.gif": "/official/static/media/fuka_ems.71fb9f15.gif",
-    "static/media/fuka_text.png": "/official/static/media/fuka_text.e36a884d.png"
+    "static/media/fuka_monitor.jpg": "/official/static/media/fuka_monitor.18cf6584.jpg",
+    "static/media/fuka_optimizer.jpg": "/official/static/media/fuka_optimizer.c7686c42.jpg",
+    "static/media/fuka_text.png": "/official/static/media/fuka_text.e36a884d.png",
+    "static/media/fuka_uptimecontroller.jpg": "/official/static/media/fuka_uptimecontroller.629ae03d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.510f5418.js",
     "static/js/2.64b97dad.chunk.js",
     "static/css/main.764d06b7.chunk.css",
-    "static/js/main.323af677.chunk.js"
+    "static/js/main.acabfce8.chunk.js"
   ]
 }
