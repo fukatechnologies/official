@@ -72,7 +72,7 @@ const Hero = ({
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="mailto:fukatechnologies@gmail.com">
                     Contact Us
-                  </Button>
+                    </Button>
                 </ButtonGroup>
               </div>
             </div>

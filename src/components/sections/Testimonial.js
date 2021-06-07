@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
+import Button from '../elements/Button';
 import SectionHeader from './partials/SectionHeader';
 
 const sectionHeader = {
@@ -95,7 +96,12 @@ const Testimonial = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>{testimonialList.map(x => <Testimony testimony={x} />)}</div>
-        </div>  
+          <div className={tilesClasses} data-reveal-delay="600">
+            <Button tag="a" color="primary" wideMobile href="mailto:fukatechnologies@gmail.com">
+              Contact Us
+            </Button>
+          </div>
+        </div> 
       </div>
     </section>
   );
