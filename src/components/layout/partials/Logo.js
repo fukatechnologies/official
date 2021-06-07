@@ -22,11 +22,11 @@ const Logo = ({
       <Image
         src={require('./../../../assets/images/fuka_logo.png')}
         alt="Open"
-        width={192} />
+        width={120} />
     </Link>
     <Image
         src={require('./../../../assets/images/fuka_text.png')}
-        width={192} />
+        width={120} />
     </div>
   );
 }

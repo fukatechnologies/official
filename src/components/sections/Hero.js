@@ -62,11 +62,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Humanising <span className="text-color-primary">Green</span> Technology
+              Humanising <span className="text-color-logo-green">Green</span> Technology
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                We deliver industry leading solution with confident, quality and pride. A revolutionary solution to the engineering and digital world. Founded by engineer thru passion, programmer by experience, with love for the environment at heart!
+                We deliver revolutionary industry leading solutions with the highest confidence, quality and pride. We emphasises on the power of modern engineering and digital world technologies. Founded by engineers thru passion, programmers by experience, with love for the environment at heart!
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>

@@ -13,9 +13,9 @@ $palette: (
 		3: #33363A
 	),
 	primary: (
-		1: #6163FF,
+		1: #004488,
 		2: #ACADFF,
-		3: #5658DD,
+		3: #003366,
 		4: #E9E9FF
  	),
 	secondary: (
@@ -28,6 +28,10 @@ $palette: (
 		error: #FF6171,
 		warning: #FFA173,
 		success: #24E5AF
+	),
+	logo: (
+		1: #003366,
+		2: #008000
 	)
 );
 
@@ -38,6 +42,8 @@ $color: (
 	high-contrast: 			get-color(light, 1),
 	mid-contrast: 			get-color(light, 2),
 	low-contrast: 			get-color(light, 3),
+	logo-blue: 				get-color(logo, 1),
+	logo-green: 			get-color(logo, 2),
 	primary:				get-color(primary, 3),
 	secondary:				get-color(secondary, 1),
 	error:					get-color(alert, error),
