@@ -19,9 +19,9 @@
 
 .site-header-inner {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-	height: $header-height__mobile;
+    justify-content: space-between;
+	height: $header-height__mobile + 70;
 }
 
 .header-nav {

@@ -24,7 +24,7 @@ const App = () => {
       ref={childRef}
       children={() => (
         <Switch>
-          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+          <AppRoute component={Home} layout={LayoutDefault} />
         </Switch>
       )} />
   );
