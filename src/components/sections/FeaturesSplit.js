@@ -8,29 +8,29 @@ import Image2 from './../../assets/images/fuka_monitor.jpg';
 import Image3 from './../../assets/images/fuka_optimizer.jpg';
 
 const sectionHeader = {
-  title: 'Product highlights',
-  paragraph: 'Presented below are some of the many use cases delivered in the past by our team of industry experts.'
+  title: 'Product Highlights',
+  paragraph: 'Documented here are some of the many use cases delivered by our team of industry experts.'
 };
 
 const featuresList = [
   {
     product:'Smart Controller System',
     functionality:'Uptime Controller',
-    description:'Maximizes the lifespan of chillers and reduces downtime due to maintanence by intelligently managing loads while ensuring a reliable 24/7 uptime.',
+    description:'Maximizes the lifespan of chillers and reduces downtime due to maintanence by intelligently managing loads while ensuring a reliable 24/7 system uptime.',
     image:Image1,
-    alt:'Features split 01'
+    alt:'Features 01'
   },{
     product:'Cloud System',
     functionality:'Automated Monitoring and Alert System',
-    description:'Enables a 24/7 remote accessable system to ensure system and production lines are operating smoothly. System can be upgraded to provide notification capabilities and alerts any system animolies almost instaneously, thus reducing downtime and production losses.',
+    description:'Enables 24/7 remote accessible system to ensure system and production lines are operating smoothly. System can be upgraded to provide notification capabilities and alerts techinical team in event of system anomalies almost instaneously, avoiding unexpected downtime, thus reducing chances of production losses.',
     image:Image2,
-    alt:'Features split 02'
+    alt:'Features 02'
   },{
     product:'Smart Controller System',
     functionality:'Energy Optimizer System',
-    description:'A propriety algoritm to fully maximize the potential system and ensure devices are constantly operating at its optimum state.',
+    description:'A proprietary algorithm to maximize the full capability of existing systems and ensuring devices are constantly operating at optimum state.',
     image:Image3,
-    alt:'Features split 03'
+    alt:'Features 03'
   }]
 
   const propTypes = {
