@@ -29,7 +29,7 @@ const features = [
     alt:'Features tile icon 03'
   },{
     name: 'Machine Learning',
-    description: 'Insights to behavior, operation, maintanence and anomalies.',
+    description: 'Insights to behavior, operation, maintanence and anomaly.',
     image: FeatureImage4,
     delayedReveal: 0,
     alt:'Features tile icon 04'
@@ -40,7 +40,7 @@ const features = [
     delayedReveal: 300,
     alt:'Features tile icon 02'
   },{
-    name: 'Industrial Automations',
+    name: 'System Automation',
     description: 'Digital controller, PLCs, HMI and Networking.',
     image: FeatureImage5,
     delayedReveal: 300,
