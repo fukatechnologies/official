@@ -10,8 +10,8 @@ import FeatureImage4 from './../../assets/images/feature-tile-icon-04.svg';
 import FeatureImage5 from './../../assets/images/feature-tile-icon-05.svg';
 
 const sectionHeader = {
-  title: 'It is all about the solution, not the product.',
-  paragraph: '- Technologies and hardwares -'
+  title: 'Expertise, Experience and Technologies.',
+  paragraph: 'It is all about the solution. We transform the way how the world uses technology.'
 };
 
 const features = [

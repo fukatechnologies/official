@@ -22,7 +22,7 @@ const featuresList = [
   },{
     product:'Cloud System',
     functionality:'Automated Monitoring and Alert System',
-    description:'Enables 24/7 remote accessible system to ensure system and production lines are operating smoothly. System can be upgraded to provide notification capabilities and alerts techinical team in event of system anomalies almost instaneously, avoiding unexpected downtime, thus reducing chances of production losses.',
+    description:'Enables 24/7 remote accessible system to ensure system and production lines are operating smoothly. System can be upgraded to provide notification capabilities and alerts technical team in event of system anomalies almost instaneously, avoiding unexpected downtime, thus reducing chances of production losses.',
     image:Image2,
     alt:'Features 02'
   },{
