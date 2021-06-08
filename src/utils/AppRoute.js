@@ -28,7 +28,7 @@ const AppRoute = ({
           return null; 
         }} />
         <Route exact path="/sign-in" component={() => { 
-          window.location.href = 'https://fuca-technology.web.app/sign-in?is=fuka'; 
+          window.location.href = 'https://fuka-tech.web.app/'; 
           return null; 
         }} />
       </Switch>

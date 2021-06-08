@@ -4,7 +4,7 @@ import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 
 // Layouts
-import LayoutDefault from './layouts/LayoutDefault';
+import LayoutDefault from './views/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
