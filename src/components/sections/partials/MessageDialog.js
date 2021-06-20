@@ -31,10 +31,10 @@ const MessageDialog = ({
     className
   );
   const [messageText, setMessageText] = useState('');
+  const [isSending, setIsSending] = useState(false);
 
   const sendMessage = (e) => {
-    if(messageText.length < 1)
-      return;
+    setIsSending(true);   
 
     fetch('https://messagefuka-default-rtdb.asia-southeast1.firebasedatabase.app/webquery.json', {
       crossDomain : true,
@@ -52,8 +52,12 @@ const MessageDialog = ({
         } else {
             alert('Sent. Please allow up to 7-days to response.');
             closeModalSend(e);
-            setMessageText('');     
+            setMessageText('');
         }
+        setIsSending(false);   
+    }).catch(() => {
+        alert('Messaging server returns and error. Please email us instead.');
+        setIsSending(false);
     });
   };
 
@@ -73,7 +77,7 @@ const MessageDialog = ({
             value={messageText}
             />
         <div />
-        <Button tag="n" color="primary" wideMobile pr onClick={sendMessage} disabled={messageText.length < 10}>
+        <Button tag="n" color="primary" wideMobile pr onClick={sendMessage} disabled={isSending || messageText.length < 10}>
           Send
         </Button>
       </Modal>  
