@@ -6,6 +6,7 @@ import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 import FukaEmsImage from './../../assets/images/fuka_ems.gif';
+import MessageDialog from '../sections/partials/MessageDialog';
 
 const propTypes = {
   ...SectionProps.types
@@ -27,6 +28,23 @@ const Landing = ({
 }) => {
 
   const [videoModalActive, setVideomodalactive] = useState(false);
+  const [showDialog, setShowDialog] = useState(false);
+  const [messageText, setMessageText] = useState('');
+  
+  const openModalSend = (e) => {
+    e.preventDefault();
+    setShowDialog(true);
+  }
+
+  const closeModalSend = (e) => {
+    e.preventDefault();
+    setShowDialog(false);
+  }
+
+  const updateText = (text) => {
+    setMessageText(text);
+    alert(messageText);
+  }
 
   const openModal = (e) => {
     e.preventDefault();
@@ -36,7 +54,7 @@ const Landing = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  }
 
   const outerClasses = classNames(
     'landing section center-content',
@@ -56,8 +74,7 @@ const Landing = ({
   return (
     <section
       {...props}
-      className={outerClasses}
-    >
+      className={outerClasses}>
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="landing-content">
@@ -68,14 +85,15 @@ const Landing = ({
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 We deliver revolutionary automation solutions with the highest level of commitment, quality and confidence. We leverages on the power of digital technologies to accomplish what is not possible with industrial automation alone. Founded by engineers through passion, programmers by experience, and with love for the environment at heart!
               </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="mailto:fukatechnologies@gmail.com">
-                    Contact Us
-                    </Button>
-                </ButtonGroup>
-              </div>
-            </div>
+                <div className="reveal-from-bottom" data-reveal-delay="600">
+                  <ButtonGroup>
+                    <Button tag="n" color="primary" wideMobile pr onClick={openModalSend}>
+                      Contact Us
+                      </Button>
+                  </ButtonGroup>
+                </div>
+                <MessageDialog showDialog={showDialog} closeModalSend={closeModalSend}/>
+                  </div>
           </div>
           <div className="landing-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
