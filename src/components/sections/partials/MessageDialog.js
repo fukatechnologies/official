@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 import Button from '../../../components/elements/Button';
 import Modal from '../../../components/elements/Modal';
 
@@ -26,10 +25,6 @@ const MessageDialog = ({
   closeModalSend,
   ...props
 }) => {
-  const classes = classNames(
-    'section-header',
-    className
-  );
   const [messageText, setMessageText] = useState('');
   const [isSending, setIsSending] = useState(false);
 

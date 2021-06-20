@@ -29,23 +29,7 @@ const Landing = ({
 
   const [videoModalActive, setVideomodalactive] = useState(false);
   const [showDialog, setShowDialog] = useState(false);
-  const [messageText, setMessageText] = useState('');
   
-  const openModalSend = (e) => {
-    e.preventDefault();
-    setShowDialog(true);
-  }
-
-  const closeModalSend = (e) => {
-    e.preventDefault();
-    setShowDialog(false);
-  }
-
-  const updateText = (text) => {
-    setMessageText(text);
-    alert(messageText);
-  }
-
   const openModal = (e) => {
     e.preventDefault();
     setVideomodalactive(true);
@@ -87,12 +71,12 @@ const Landing = ({
               </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
                   <ButtonGroup>
-                    <Button tag="n" color="primary" wideMobile pr onClick={openModalSend}>
-                      Contact Us
+                    <Button tag="n" color="primary" wideMobile pr onClick={() => setShowDialog(true)}>
+                      Message Us
                       </Button>
                   </ButtonGroup>
                 </div>
-                <MessageDialog showDialog={showDialog} closeModalSend={closeModalSend}/>
+                <MessageDialog showDialog={showDialog} closeModalSend={() => setShowDialog(false)}/>
                   </div>
           </div>
           <div className="landing-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
