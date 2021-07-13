@@ -98,7 +98,7 @@ const Testimonial = ({
           <div className={tilesClasses}>{testimonialList.map(x => <Testimony testimony={x} />)}</div>
           <div className={tilesClasses} data-reveal-delay="600">
             <Button tag="a" color="primary" wideMobile href="mailto:fukatechnologies@gmail.com">
-              Contact Us
+              Email Us
             </Button>
           </div>
         </div> 

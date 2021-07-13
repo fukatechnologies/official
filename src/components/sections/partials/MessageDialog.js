@@ -31,19 +31,19 @@ const MessageDialog = ({
   const sendMessage = (e) => {
     setIsSending(true);   
 
-    fetch('https://messagefuka-default-rtdb.asia-southeast1.firebasedatabase.app/webquery.json', {
+    fetch('https://fuka-tech-default-rtdb.asia-southeast1.firebasedatabase.app/webquery.json', {
       crossDomain : true,
       method : 'POST',
       body : JSON.stringify({
         "key": "ZnVrYXRlY2hub2xvZ2llcw==",
-        "pn":"01234567891",
+        "pn":"01234567890",
         "text":messageText
       }),
       headers : { 'Content-Type' : 'application/json'}})
     .then(response => response.json())
     .then(res => {
         if (res.error) {   
-            alert('Messaging server returns and error. Please email us instead.');
+            alert('Messaging server returns an error. Please email us instead.');
         } else {
             alert('Sent. Please allow up to 7-days to response.');
             closeModalSend(e);
@@ -51,7 +51,6 @@ const MessageDialog = ({
         }
         setIsSending(false);   
     }).catch(() => {
-        alert('Messaging server returns and error. Please email us instead.');
         setIsSending(false);
     });
   };
